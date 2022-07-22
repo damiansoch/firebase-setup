@@ -20,7 +20,6 @@ const EmailForm = () => {
   const changeHandler = (event) => {
     const { name, value } = event.target;
     setFormFields({ ...formFields, [name]: value });
-    console.log(formFields);
   };
   const resstFormFields = () => {
     setFormFields(defaultFormFields);
